@@ -1,3 +1,5 @@
+// creates random plan of plants needed to plant
+
 const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
 export const createPlan = () => {
@@ -29,4 +31,6 @@ const crop = function* () {
         yield types[typeIdx]
     }
 }()
+
+
 
